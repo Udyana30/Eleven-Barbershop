@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Eleven Barbershop</string>
+    //LOGIN PAGE
+    <string name="welcome">Welcome Back.</string>
+    <string name="login1">Please enter your login information below \n to access your account.</string>
+    <string name="email_username">Username or Email</string>
+    <string name="password">Enter your password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Log in</string>
+    <string name="mention_register">Don’t have an account?</string>
+    <string name="to_register">Register Now</string>
+    <string name="show_hide_password_desc">Show/Hide Password</string>
+
+    //ERROR
+    <string name="error_email_required">Email or username is required.</string>
+    <string name="error_only_email_required">Email is required!</string>
+    <string name="error_password_required">Password is required.</string>
+    <string name="error_format_email">Invalid email format!</string>
+    <string name="error_format_username">Invalid username format!</string>
+    <string name="error_password_patern">Password must contain at least one uppercase letter and one digit!</string>
+    <string name="error_password_length">"Password must be >= 6 characters!</string>
+
+    //TOAS
+    <string name="success_toast">Login Success :)</string>
+    <string name="failure_toast">Authentication Failed!</string>
+
+
+    //REGISTER
+    <string name="create">Create Account.</string>
+    <string name="register1">Please enter your data to complete \n your account registration process.</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="register">Sign Up</string>
+    <string name="password1">Password</string>
+    <string name="mention_login">Already have an account?</string>
+    <string name="to_login">Login</string>
+    <string name="fill">Personal Details</string>
+    <string name="fill2">Personal Profile</string>
+    <string name="fill_child">Complete your details for a personalized and seamless experience.</string>
+    <string name="fill_child2">Upload a profile photo to make your account stand out.</string>
+    <string name="birth">Birthday</string>
+    <string name="phone">Phone Number</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string-array name="gender_array">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string name="up">Upload</string>
+    <string name="skip">Skip</string>
+    <string name="or">OR</string>
+
+
+    //NAV
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="book">Book</string>
+    <string name="profile">Profile</string>
+
+    //HOME
+    <string name="hello">Hello,</string>
+    <string name="my_username">saynz</string>
+    <string name="date">June 12, 2024</string>
+    <string name="search">What are you looking for?</string>
+    <string name="service">Services</string>
+    <string name="service_menu">Title</string>
+    <string name="gallery">Gallery</string>
+    <string name="filter">Filter</string>
+    <string name="apply">Apply</string>
+    <string-array name="type_array">
+        <item>All</item>
+        <item>Haircut</item>
+        <item>Beard Trimming</item>
+        <item>Hair Coloring</item>
+    </string-array>
+    <string-array name="face_shape_array">
+        <item>All</item>
+        <item>Oval</item>
+        <item>Round</item>
+        <item>Square</item>
+        <item>Diamond</item>
+    </string-array>
+
+
+    //ABOUT
+    <string name="about1">About Eleven</string>
+    <string name="about2">Eleven Barbershop offers premium grooming services with a focus on style and sophistication. Our expert barbers provide precision haircuts, refreshing scalp massages, and personalized care. Experience luxury and embrace your power with Eleven.</string>
+    <string name="our_barber">Our Barbers</string>
+    <string name="location">Location</string>
+    <string name="maps">Maps</string>
+
+    //BOOK
+    <string name="title_book">Let’s Booking</string>
+    <string name="active">Active</string>
+    <string name="history">History</string>
+    <string name="drop_list">Select Location</string>
+    <string name="select_services">Select Services</string>
+    <string name="title_service">Title Service</string>
+    <string name="description_service">Description Service</string>
+    <string name="price_service">50</string>
+    <string name="select_barber">Select a Barber</string>
+    <string name="date_time">Date and Time</string>
+    <string name="detail_time">Display the next available time</string>
+    <string name="select_time">Choose your time</string>
+    <string name="book_now">Book Now</string>
+    <string name="active_book">You dont have an active booking</string>
+    <string name="history_book">No booking history yet. Start your first booking now!</string>
+    <string name="title_active">Title</string>
+    <string name="style_active">Style</string>
+    <string name="date_active">Date</string>
+    <string name="info_active">Please Come on Time!</string>
+    <string name="info_history">Exquisite as always. See you soon!</string>
+    <string name="barber">Barber</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="selected_barber">Select the barbershop location first</string>
+
+    //PROFILE
+    <string name="name">Name</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_name">King Saynz</string>
+    <string name="hbd">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="your_hbd">dd/mm/yy</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="address">Adrress</string>
+    <string name="your_address">Mengwi, France</string>
+    <string name="save">Save</string>
+    <string name="verify">Send Verification</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="update_messages">Your Profile has been Updated </string>
+    <string name="empty_messages">This fields must be filled out.</string>
+
+    <string name="child_account">Update your email, username, and phone\nfor a seamless and personalized experience.</string>
+    <string name="child_settings">Adjust your preferences and settings\nto customize your experience.</string>
+    <string name="setting">Settings</string>
+    <string name="account_center">Account Center</string>
+    <string name="accessibility">Accessibility</string>
+    <string name="activity_center">Activity Center</string>
+    <string name="device">Device Permissions</string>
+    <string name="language">Language</string>
+    <string name="notification">Notifications</string>
+    <string name="privacy">Privacy</string>
+    <string name="security">Security Permissions</string>
+    <string name="terms">Terms and Policies</string>
+    <string name="logout">Log Out</string>
+
+
+    //APPOINTMENT
+    <string name="appointment">Appointment</string>
+    <string name="your_barber">your barber</string>
+    <string name="service_list">Service List</string>
+    <string name="your_time">Your Time</string>
+    <string name="your_service">Your Service</string>
+
+    //GALLERY INSIGHT
+    <string name="insight">Gallery Insight</string>
+    <string name="insight_title">Hair Style</string>
+    <string name="insight_subtitle">This your description</string>
+    <string name="face_shape">Face Shape</string>
+    <string name="more_explore">More to Explore</string>
+
+    //BARBER DETAILS
+    <string name="skill">Special Skills</string>
+    <string name="confirm">Confirm Your Spot</string>
+    <string name="pay">PAY NOW!</string>
+    <string name="pay_summary">Pay Summary</string>
+    <string name="back">Back</string>
+
+</resources>

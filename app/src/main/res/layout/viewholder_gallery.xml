@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vm_gallery_references"
+    android:layout_width="160dp"
+    android:layout_height="190dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="14dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/vm_gallery"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        tools:ignore="ImageContrastCheck">
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="4dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/service_menu"/>
+    </LinearLayout>
+</LinearLayout>

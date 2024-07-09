@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666280884914",
+    "project_id": "eleven-barbershop",
+    "storage_bucket": "eleven-barbershop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666280884914:android:a96d31984bf94f336767ab",
+        "android_client_info": {
+          "package_name": "com.example.elevenbarbershop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWv2biy73oZJuSkBbYXFx2A971m3NWJu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

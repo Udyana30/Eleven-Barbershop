@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/VM_services"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginEnd="24dp">
+
+    <ImageView
+        android:id="@+id/services_image"
+        android:layout_width="100dp"
+        android:layout_height="115dp"
+        android:contentDescription="@string/service"/>
+
+    <TextView
+        android:id="@+id/services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/service_menu"/>
+
+</LinearLayout>
