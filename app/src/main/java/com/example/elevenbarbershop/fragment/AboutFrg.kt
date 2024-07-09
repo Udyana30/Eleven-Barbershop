@@ -104,8 +104,6 @@ class AboutFrg : Fragment(), OnMapReadyCallback {
         binding.mapView.onDestroy()
     }
 
-    override fun onLowMemory() {
-        super.onLowMemory()
-        binding.mapView.onLowMemory()
+  
     }
 }
