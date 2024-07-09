@@ -1,5 +1,4 @@
 package com.example.elevenbarbershop.activity
-
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -54,6 +53,15 @@ class BarberDetailsAct : AppCompatActivity() {
             adapter = barberAdapter
         }
 
+        // Observasi barberList dari MainVM dan perbarui adapter saat data berubah
+        mainVM.barberList.observe(this) { barberItems ->
+            Log.d("BarberDetailsAct", "Barber Items: $barberItems")
+            barberItems?.let {
+                barberAdapter.setOriginalBarber(it)
+                barberAdapter.setDisplayedItems(listOfNotNull(barberItem))
+                binding.progressBar7.visibility = View.GONE
+            }
+        }
 
         mainVM.fetchBarber()
     }
