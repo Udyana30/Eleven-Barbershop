@@ -52,6 +52,29 @@ class GalleryAdapter(
         notifyDataSetChanged()
     }
 
+    @SuppressLint("NotifyDataSetChanged")
+    fun setDisplayedItems(items: List<GalleryModel>) {
+        displayedItems = items
+        notifyDataSetChanged()
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    fun setOriginalGalleryList(newList: List<GalleryModel>) {
+        originalGalleryList = newList
+        filter("") // Refresh the filtered list
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    fun setTypeFilter(type: String) {
+        typeFilter = type
+        filter("")
+    }
+
+    @SuppressLint("NotifyDataSetChanged")
+    fun setFaceFilter(face: String) {
+        faceFilter = face
+        filter("")
+    }
 
 
     inner class GalleryViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
