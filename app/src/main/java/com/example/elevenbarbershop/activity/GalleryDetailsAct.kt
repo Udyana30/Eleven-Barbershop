@@ -53,15 +53,6 @@ class GalleryDetailsAct : AppCompatActivity() {
             addItemDecoration(ItemDecoration(2, 40, false))
         }
 
-        // Observasi galleryList dari MainVM dan perbarui adapter saat data berubah
-        mainVM.galleryList.observe(this) { galleryItems ->
-            Log.d("GalleryDetailsAct", "Gallery Items: $galleryItems")
-            galleryItems?.let {
-                galleryAdapter.setOriginalGalleryList(it)
-                galleryAdapter.setDisplayedItems(listOfNotNull(galleryItem))
-                binding.progressBar4.visibility = View.GONE
-            }
-        }
 
         mainVM.fetchGallery()
     }
