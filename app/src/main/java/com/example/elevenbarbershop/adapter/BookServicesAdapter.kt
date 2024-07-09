@@ -60,11 +60,6 @@ class BookServicesAdapter(
         }
     }
 
-    override fun getItemCount() = services.size
 
-    private fun selectService(service: BookServicesModel) {
-        selectedItem = service
-        onServiceSelected(service)
-        notifyDataSetChanged()
     }
 }
